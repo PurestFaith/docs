@@ -1,0 +1,8 @@
+:root {
+  --vp-c-brand: yellowgreen;
+  --vp-c-brand-light: #3498db;
+  --vp-c-brand-lighter: rgb(136, 184, 39);
+  --vp-c-brand-dark: rgb(136, 184, 39);
+  --vp-c-brand-darker: rgb(142, 196, 35);
+  --vp-button-brand-border: yellowgreen;
+}
