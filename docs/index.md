@@ -1,15 +1,15 @@
 ---
 layout: home
 
-title: PurestFaith
-titleTemplate: Vite & Vue 驱动的静态站点生成器
+title: PurestFaith 的文档
+titleTemplate: Vite & Vue 驱动的静态站点
 
 hero:
   name: CHENG
   text: Everything happens for a reason.
   tagline: A person who truly loves you will never let you go, no matter how hard the situation is.
   image:
-    src: /img/photo.png
+    src: /img/logo.png
     alt: CHENG
   actions:
     - theme: brand

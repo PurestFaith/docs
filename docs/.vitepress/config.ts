@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  description: '',
+  description: '这是我的新文档',
   head: [
     [
       'link',
@@ -17,18 +17,22 @@ export default defineConfig({
     theme: 'vitesse-dark',
     lineNumbers: true,
   },
-  title: 'VitePress',
+  title: 'PurestFaith 的文档',
   themeConfig: {
-    logo: '/img/logo.svg',
-    siteTitle: 'PurestFaith',
+    logo: '/img/logo.png',
+    siteTitle: 'PurestFaith 的文档',
     nav: [
+      {
+        text: '首页',
+        link: '/',
+      },
       {
         text: '文档简介',
         link: '/guide/',
       },
       {
         text: '个人简介',
-        link: '/guide/resume',
+        link: '/resume/',
       },
     ],
     socialLinks: [
@@ -39,10 +43,10 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Guany',
+      copyright: 'Copyright © 2023-present PurestFaith',
     },
     editLink: {
-      pattern: 'https://github.com/tlyboy/starter/edit/main/docs/:path',
+      pattern: 'https://github.com/tlyboy/docs/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
     lastUpdatedText: '上次更新',
