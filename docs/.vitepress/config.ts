@@ -46,7 +46,7 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present PurestFaith',
     },
     editLink: {
-      pattern: 'https://github.com/tlyboy/docs/edit/main/docs/:path',
+      pattern: 'https://github.com/PurestFaith/docs/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
     lastUpdatedText: '上次更新',
