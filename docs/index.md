@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 文档简介
-      link: /guide/resume
+      link: /guide/
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/PurestFaith
