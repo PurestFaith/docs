@@ -2,20 +2,19 @@
   "name": "docs",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@8.6.0",
-  "description": "",
+  "packageManager": "pnpm@8.7.1",
   "author": "PurestFaith",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.3",
-    "eslint": "^8.41.0",
+    "@antfu/eslint-config": "^0.39.8",
+    "eslint": "^8.48.0",
     "vitepress": "1.0.0-beta.1",
     "vue": "^3.3.4"
   }
